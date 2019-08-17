@@ -1,0 +1,33 @@
+{
+  "name": "matrix-js",
+  "version": "1.0.0",
+  "description": "A module for managing matrices",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "standard": "^13.1.0"
+  },
+  "scripts": {
+    "test": "mocha tests",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverEkberg/matrix-js.git"
+  },
+  "keywords": [
+    "matrix"
+  ],
+  "author": "Oliver Ekberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliverEkberg/matrix-js/issues"
+  },
+  "homepage": "https://github.com/OliverEkberg/matrix-js#readme"
+}
